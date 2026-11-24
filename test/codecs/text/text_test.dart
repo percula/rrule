@@ -46,6 +46,7 @@ Future<Map<String, RruleL10n>> createL10n() async {
     'en': await RruleL10nEn.create(),
     'es': await RruleL10nEs.create(),
     'fr': await RruleL10nFr.create(),
+    'ja': await RruleL10nJa.create(),
     'nl': await RruleL10nNl.create(),
   };
 }

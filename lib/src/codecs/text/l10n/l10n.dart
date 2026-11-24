@@ -10,6 +10,7 @@ export 'de.dart';
 export 'en.dart';
 export 'es.dart';
 export 'fr.dart';
+export 'ja.dart';
 export 'nl.dart';
 
 /// Contains localized strings used by [RecurrenceRule.toText].
