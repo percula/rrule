@@ -66,8 +66,8 @@ assert(rrule.toString() == string); // true
 You can convert a [`RecurrenceRule`] to a human-readable `String`s by using [`RecurrenceRule.toText()`]:
 
 ```dart
-// First, load the localizations (currently, only English, Dutch, and French
-// are supported):
+// First, load the localizations (currently, English, Dutch, French, German,
+// Japanese, and Spanish are supported):
 final l10n = await RruleL10nEn.create();
 
 final rrule = RecurrenceRule.fromString(
