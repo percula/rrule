@@ -1,17 +1,17 @@
 RRULE:FREQ=WEEKLY;BYMONTH=1,2,3,8,9;BYDAY=MO,WE,TH,FR,SU:
-  de: "Wöchentlich im Januar – März, August & September Montags, Mittwochs – Freitags & Sonntags"
+  de: "Wöchentlich von Januar bis März, August und September montags, mittwochs bis freitags und sonntags"
   en: "Weekly in January – March, August & September on Monday, Wednesday – Friday & Sunday"
   es: "Todas las semanas de enero a marzo, agosto y septiembre los lunes, de miércoles a viernes y los domingos"
   fr: "Toutes les semaines de janvier à mars, en août et en septembre le lundi, du mercredi au vendredi et le dimanche"
   nl: "Wekelijks in januari – maart, augustus en september op maandag, woensdag – vrijdag en zondag"
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3;BYDAY=MO,TU,WE,TH,FR,SU:
-  de: Jede zweite Woche im Januar – März an Wochentagen & Sonntags
+  de: Jede zweite Woche von Januar bis März montags bis freitags und sonntags
   en: Every other week in January – March on weekdays & Sunday
   es: Cada dos semanas de enero a marzo de lunes a viernes y los domingos
   fr: Toutes les deux semaines de janvier à mars du lundi au vendredi et le dimanche
   nl: Om de twee weken in januari – maart op weekdagen en zondag
 RRULE:FREQ=MONTHLY;BYDAY=MO,TU,WE,1TH,1FR,2TH,2FR,2SA,-2TH,-2FR,-2SU,-1TH,-1FR,-1SU;BYMONTHDAY=1,2,3,4,5,26,-3,-2,-1:
-  de: "Monatlich jeden Montag – Mittwoch, ersten Donnerstag & Freitag, zweiten Donnerstag – Samstag, vorletzten Donnerstag, Freitag & Sonntag, und letzten Donnerstag, Freitag & Sonntag sowie am ersten – 5., 26., oder 3.-letzten – letzten Tag des Monats"
+  de: "Monatlich montags bis mittwochs, am ersten Donnerstag und Freitag, am zweiten Donnerstag, Freitag und Samstag, am vorletzten Donnerstag, Freitag und Sonntag und am letzten Donnerstag, Freitag und Sonntag nur vom ersten bis zum fünften, am 26. oder vom drittletzten bis zum letzten Tag des Monats"
   en: "Monthly on every Monday – Wednesday, the 1st Thursday & Friday, the 2nd Thursday – Saturday, the 2nd-to-last Thursday, Friday & Sunday, and the last Thursday, Friday & Sunday that are also the 1st – 5th, 26th, or 3rd-to-last – last day of the month"
   es: "Todos los meses de lunes a miércoles, el primer jueves y viernes, el segundo jueves, viernes y sábado, el penúltimo jueves, viernes y domingo y el último jueves, viernes y domingo que caen del 1 al 5, el día 26 o del antepenúltimo al último día del mes"
   fr: "Tous les mois du lundi au mercredi, le 1er jeudi et vendredi, le 2e jeudi, vendredi et samedi, l'avant-dernier jeudi, vendredi et dimanche et le dernier jeudi, vendredi et dimanche qui tombent du 1er au 5e, le 26e ou de l'antépénultième au dernier jour du mois"
@@ -20,19 +20,19 @@ RRULE:FREQ=MONTHLY;BYDAY=MO,TU,WE,1TH,1FR,2TH,2FR,2SA,-2TH,-2FR,-2SU,-1TH,-1FR,-
 # Daily
 
 RRULE:FREQ=DAILY;BYDAY=MO:
-  de: Täglich Montags
+  de: Täglich montags
   en: Daily on Monday
   es: Todos los días los lunes
   fr: Tous les jours le lundi
   nl: Dagelijks op maandag
 RRULE:FREQ=DAILY;INTERVAL=2;BYDAY=MO:
-  de: Jeden zweiten Tag Montags
+  de: Jeden zweiten Tag montags
   en: Every other day on Monday
   es: Cada dos días los lunes
   fr: Tous les deux jours le lundi
   nl: Om de twee dagen op maandag
 RRULE:FREQ=DAILY;INTERVAL=4;BYDAY=MO:
-  de: Alle 4 Tage Montags
+  de: Alle 4 Tage montags
   en: Every 4 days on Monday
   es: Cada 4 días los lunes
   fr: Tous les 4 jours le lundi
@@ -51,49 +51,49 @@ RRULE:FREQ=DAILY:
   nl: Dagelijks
 # 0001
 RRULE:FREQ=DAILY;BYDAY=MO,TH:
-  de: Täglich Montags & Donnerstags
+  de: Täglich montags und donnerstags
   en: Daily on Monday & Thursday
   es: Todos los días los lunes y los jueves
   fr: Tous les jours le lundi et le jeudi
   nl: Dagelijks op maandag en donderdag
 # 0010
 RRULE:FREQ=DAILY;BYMONTHDAY=1,-1:
-  de: Täglich am ersten & letzten Tag des Monats
+  de: Täglich am ersten und letzten Tag des Monats
   en: Daily on the 1st & last day of the month
   es: Todos los días el día 1 y el último día del mes
   fr: Tous les jours le 1er et le dernier jour du mois
   nl: Dagelijks op de eerste en laatste dag van de maand
 # 0011
 RRULE:FREQ=DAILY;BYMONTHDAY=1,-1;BYDAY=MO,TH:
-  de: Täglich Montags & Donnerstags sowie am ersten oder letzten Tag des Monats
+  de: Täglich montags und donnerstags nur am ersten oder letzten Tag des Monats
   en: Daily on Monday & Thursday that are also the 1st or last day of the month
   es: Todos los días los lunes y los jueves que caen el día 1 o el último día del mes
   fr: Tous les jours le lundi et le jeudi qui tombent le 1er ou le dernier jour du mois
   nl: Dagelijks op maandag en donderdag die tevens de eerste of laatste dag van de maand zijn
 # 0100
 RRULE:FREQ=DAILY;BYMONTH=1,12:
-  de: Täglich im Januar & Dezember
+  de: Täglich im Januar und Dezember
   en: Daily in January & December
   es: Todos los días en enero y diciembre
   fr: Tous les jours en janvier et en décembre
   nl: Dagelijks in januari en december
 # 0101
 RRULE:FREQ=DAILY;BYMONTH=1,12;BYDAY=MO,TH:
-  de: Täglich im Januar & Dezember Montags & Donnerstags
+  de: Täglich im Januar und Dezember montags und donnerstags
   en: Daily in January & December on Monday & Thursday
   es: Todos los días en enero y diciembre los lunes y los jueves
   fr: Tous les jours en janvier et en décembre le lundi et le jeudi
   nl: Dagelijks in januari en december op maandag en donderdag
 # 0110
 RRULE:FREQ=DAILY;BYMONTH=1,12;BYMONTHDAY=1,-1:
-  de: Täglich im Januar & Dezember am ersten & letzten Tag des Monats
+  de: Täglich im Januar und Dezember am ersten und letzten Tag des Monats
   en: Daily in January & December on the 1st & last day of the month
   es: Todos los días en enero y diciembre el día 1 y el último día del mes
   fr: Tous les jours en janvier et en décembre le 1er et le dernier jour du mois
   nl: Dagelijks in januari en december op de eerste en laatste dag van de maand
 # 0111
 RRULE:FREQ=DAILY;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,TH:
-  de: Täglich im Januar & Dezember Montags & Donnerstags sowie am ersten oder letzten Tag des Monats
+  de: Täglich im Januar und Dezember montags und donnerstags nur am ersten oder letzten Tag des Monats
   en: Daily in January & December on Monday & Thursday that are also the 1st or last day of the month
   es: Todos los días en enero y diciembre los lunes y los jueves que caen el día 1 o el último día del mes
   fr: Tous les jours en janvier et en décembre le lundi et le jeudi qui tombent le 1er ou le dernier jour du mois
@@ -101,49 +101,49 @@ RRULE:FREQ=DAILY;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,TH:
 # 1000: invalid
 # 1001
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYDAY=MO,TH:
-  de: Täglich am ersten & vorletzten Montag & Donnerstag
+  de: Täglich jeweils das erste und vorletzte Vorkommen von Montag und Donnerstag
   en: Daily on the 1st & 2nd-to-last instance of Monday & Thursday
   es: Todos los días la primera y la penúltima ocurrencia de los lunes y los jueves
   fr: Tous les jours la 1re et l'avant-dernière occurrence du lundi et du jeudi
   nl: Dagelijks op de eerste en voorlaatste van maandag en donderdag
 # 1010
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTHDAY=1,-1:
-  de: Täglich am ersten & vorletzten  ersten & letzten Tag des Monats
+  de: Täglich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats
   en: Daily on the 1st & 2nd-to-last instance of the 1st & last day of the month
   es: Todos los días la primera y la penúltima ocurrencia del día 1 y el último día del mes
   fr: Tous les jours la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois
   nl: Dagelijks op de eerste en voorlaatste van de eerste en laatste dag van de maand
 # 1011
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTHDAY=1,-1;BYDAY=MO,TH:
-  de: Täglich am ersten & vorletzten Montag & Donnerstag sowie am ersten oder letzten Tag des Monats
+  de: Täglich jeweils das erste und vorletzte Vorkommen von Montag und Donnerstag nur am ersten oder letzten Tag des Monats
   en: Daily on the 1st & 2nd-to-last instance of Monday & Thursday that are also the 1st or last day of the month
   es: Todos los días la primera y la penúltima ocurrencia de los lunes y los jueves que caen el día 1 o el último día del mes
   fr: Tous les jours la 1re et l'avant-dernière occurrence du lundi et du jeudi qui tombent le 1er ou le dernier jour du mois
   nl: Dagelijks op de eerste en voorlaatste van maandag en donderdag die tevens de eerste of laatste dag van de maand zijn
 # 1100
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTH=1,12:
-  de: Täglich im Januar & Dezember am ersten & vorletzten
+  de: Täglich im Januar und Dezember jeweils das erste und vorletzte Vorkommen
   en: Daily in January & December on the 1st & 2nd-to-last instance
   es: Todos los días en enero y diciembre la primera y la penúltima ocurrencia
   fr: Tous les jours en janvier et en décembre la 1re et l'avant-dernière occurrence
   nl: Dagelijks in januari en december op de eerste en voorlaatste
 # 1101
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTH=1,12;BYDAY=MO,TH:
-  de: Täglich im Januar & Dezember am ersten & vorletzten Montag & Donnerstag
+  de: Täglich im Januar und Dezember jeweils das erste und vorletzte Vorkommen von Montag und Donnerstag
   en: Daily in January & December on the 1st & 2nd-to-last instance of Monday & Thursday
   es: Todos los días en enero y diciembre la primera y la penúltima ocurrencia de los lunes y los jueves
   fr: Tous les jours en janvier et en décembre la 1re et l'avant-dernière occurrence du lundi et du jeudi
   nl: Dagelijks in januari en december op de eerste en voorlaatste van maandag en donderdag
 # 1110
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1:
-  de: Täglich im Januar & Dezember am ersten & vorletzten  ersten & letzten Tag des Monats
+  de: Täglich im Januar und Dezember jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats
   en: Daily in January & December on the 1st & 2nd-to-last instance of the 1st & last day of the month
   es: Todos los días en enero y diciembre la primera y la penúltima ocurrencia del día 1 y el último día del mes
   fr: Tous les jours en janvier et en décembre la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois
   nl: Dagelijks in januari en december op de eerste en voorlaatste van de eerste en laatste dag van de maand
 # 1111
 RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,TH:
-  de: Täglich im Januar & Dezember am ersten & vorletzten Montag & Donnerstag sowie am ersten oder letzten Tag des Monats
+  de: Täglich im Januar und Dezember jeweils das erste und vorletzte Vorkommen von Montag und Donnerstag nur am ersten oder letzten Tag des Monats
   en: Daily in January & December on the 1st & 2nd-to-last instance of Monday & Thursday that are also the 1st or last day of the month
   es: Todos los días en enero y diciembre la primera y la penúltima ocurrencia de los lunes y los jueves que caen el día 1 o el último día del mes
   fr: Tous les jours en janvier et en décembre la 1re et l'avant-dernière occurrence du lundi et du jeudi qui tombent le 1er ou le dernier jour du mois
@@ -152,19 +152,19 @@ RRULE:FREQ=DAILY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,TH:
 # Weekly
 
 RRULE:FREQ=WEEKLY;BYDAY=MO:
-  de: Wöchentlich Montags
+  de: Wöchentlich montags
   en: Weekly on Monday
   es: Todas las semanas los lunes
   fr: Toutes les semaines le lundi
   nl: Wekelijks op maandag
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO:
-  de: Jede zweite Woche Montags
+  de: Jede zweite Woche montags
   en: Every other week on Monday
   es: Cada dos semanas los lunes
   fr: Toutes les deux semaines le lundi
   nl: Om de twee weken op maandag
 RRULE:FREQ=WEEKLY;INTERVAL=4;BYDAY=MO:
-  de: Alle 4 Wochen Montags
+  de: Alle 4 Wochen montags
   en: Every 4 weeks on Monday
   es: Cada 4 semanas los lunes
   fr: Toutes les 4 semaines le lundi
@@ -182,21 +182,21 @@ RRULE:FREQ=WEEKLY:
   nl: Wekelijks
 # 001
 RRULE:FREQ=WEEKLY;BYDAY=MO,TH:
-  de: Wöchentlich Montags & Donnerstags
+  de: Wöchentlich montags und donnerstags
   en: Weekly on Monday & Thursday
   es: Todas las semanas los lunes y los jueves
   fr: Toutes les semaines le lundi et le jeudi
   nl: Wekelijks op maandag en donderdag
 # 010
 RRULE:FREQ=WEEKLY;BYMONTH=1,12:
-  de: Wöchentlich im Januar & Dezember
+  de: Wöchentlich im Januar und Dezember
   en: Weekly in January & December
   es: Todas las semanas en enero y diciembre
   fr: Toutes les semaines en janvier et en décembre
   nl: Wekelijks in januari en december
 # 011
 RRULE:FREQ=WEEKLY;BYMONTH=1,12;BYDAY=MO,TH:
-  de: Wöchentlich im Januar & Dezember Montags & Donnerstags
+  de: Wöchentlich im Januar und Dezember montags und donnerstags
   en: Weekly in January & December on Monday & Thursday
   es: Todas las semanas en enero y diciembre los lunes y los jueves
   fr: Toutes les semaines en janvier et en décembre le lundi et le jeudi
@@ -204,21 +204,21 @@ RRULE:FREQ=WEEKLY;BYMONTH=1,12;BYDAY=MO,TH:
 # 100: invalid
 # 101
 RRULE:FREQ=WEEKLY;BYSETPOS=1,-2;BYDAY=MO,TH:
-  de: Wöchentlich am ersten & vorletzten Montag & Donnerstag
+  de: Wöchentlich jeweils das erste und vorletzte Vorkommen von Montag und Donnerstag
   en: Weekly on the 1st & 2nd-to-last instance of Monday & Thursday
   es: Todas las semanas la primera y la penúltima ocurrencia de los lunes y los jueves
   fr: Toutes les semaines la 1re et l'avant-dernière occurrence du lundi et du jeudi
   nl: Wekelijks op de eerste en voorlaatste van maandag en donderdag
 # 110
 RRULE:FREQ=WEEKLY;BYSETPOS=1,-2;BYMONTH=1,12:
-  de: Wöchentlich im Januar & Dezember am ersten & vorletzten
+  de: Wöchentlich im Januar und Dezember jeweils das erste und vorletzte Vorkommen
   en: Weekly in January & December on the 1st & 2nd-to-last instance
   es: Todas las semanas en enero y diciembre la primera y la penúltima ocurrencia
   fr: Toutes les semaines en janvier et en décembre la 1re et l'avant-dernière occurrence
   nl: Wekelijks in januari en december op de eerste en voorlaatste
 # 111
 RRULE:FREQ=WEEKLY;BYSETPOS=1,-2;BYMONTH=1,12;BYDAY=MO,TH:
-  de: Wöchentlich im Januar & Dezember am ersten & vorletzten Montag & Donnerstag
+  de: Wöchentlich im Januar und Dezember jeweils das erste und vorletzte Vorkommen von Montag und Donnerstag
   en: Weekly in January & December on the 1st & 2nd-to-last instance of Monday & Thursday
   es: Todas las semanas en enero y diciembre la primera y la penúltima ocurrencia de los lunes y los jueves
   fr: Toutes les semaines en janvier et en décembre la 1re et l'avant-dernière occurrence du lundi et du jeudi
@@ -227,19 +227,19 @@ RRULE:FREQ=WEEKLY;BYSETPOS=1,-2;BYMONTH=1,12;BYDAY=MO,TH:
 # Monthly
 
 RRULE:FREQ=MONTHLY;BYDAY=MO:
-  de: Monatlich jeden Montag
+  de: Monatlich montags
   en: Monthly on every Monday
   es: Todos los meses los lunes
   fr: Tous les mois le lundi
   nl: Maandelijks op elke maandag
 RRULE:FREQ=MONTHLY;INTERVAL=2;BYDAY=MO:
-  de: Jeden zweiten Monat jeden Montag
+  de: Jeden zweiten Monat montags
   en: Every other month on every Monday
   es: Cada dos meses los lunes
   fr: Tous les deux mois le lundi
   nl: Om de twee maanden op elke maandag
 RRULE:FREQ=MONTHLY;INTERVAL=4;BYDAY=MO:
-  de: Alle 4 Monate jeden Montag
+  de: Alle 4 Monate montags
   en: Every 4 months on every Monday
   es: Cada 4 meses los lunes
   fr: Tous les 4 mois le lundi
@@ -266,49 +266,49 @@ RRULE:FREQ=MONTHLY:
   nl: Maandelijks
 # 0001
 RRULE:FREQ=MONTHLY;BYDAY=MO,-1TH:
-  de: Monatlich jeden Montag & letzten Donnerstag
+  de: Monatlich montags und am letzten Donnerstag
   en: Monthly on every Monday & the last Thursday
   es: Todos los meses los lunes y el último jueves
   fr: Tous les mois le lundi et le dernier jeudi
   nl: Maandelijks op elke maandag en de laatste donderdag
 # 0010
 RRULE:FREQ=MONTHLY;BYMONTHDAY=1,-1:
-  de: Monatlich am ersten & letzten Tag
+  de: Monatlich am ersten und letzten Tag
   en: Monthly on the 1st & last day
   es: Todos los meses el día 1 y el último día
   fr: Tous les mois le 1er et le dernier jour
   nl: Maandelijks op de eerste en laatste dag
 # 0011
 RRULE:FREQ=MONTHLY;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Monatlich jeden Montag & letzten Donnerstag sowie am ersten oder letzten Tag des Monats
+  de: Monatlich montags und am letzten Donnerstag nur am ersten oder letzten Tag des Monats
   en: Monthly on every Monday & the last Thursday that are also the 1st or last day of the month
   es: Todos los meses los lunes y el último jueves que caen el día 1 o el último día del mes
   fr: Tous les mois le lundi et le dernier jeudi qui tombent le 1er ou le dernier jour du mois
   nl: Maandelijks op elke maandag en de laatste donderdag die tevens de eerste of laatste dag van de maand zijn
 # 0100
 RRULE:FREQ=MONTHLY;BYMONTH=1,12:
-  de: Monatlich im Januar & Dezember
+  de: Monatlich im Januar und Dezember
   en: Monthly in January & December
   es: Todos los meses en enero y diciembre
   fr: Tous les mois en janvier et en décembre
   nl: Maandelijks in januari en december
 # 0101
 RRULE:FREQ=MONTHLY;BYMONTH=1,12;BYDAY=MO,-1TH:
-  de: Monatlich im Januar & Dezember jeden Montag & letzten Donnerstag
+  de: Monatlich im Januar und Dezember montags und am letzten Donnerstag
   en: Monthly in January & December on every Monday & the last Thursday
   es: Todos los meses en enero y diciembre los lunes y el último jueves
   fr: Tous les mois en janvier et en décembre le lundi et le dernier jeudi
   nl: Maandelijks in januari en december op elke maandag en de laatste donderdag
 # 0110
 RRULE:FREQ=MONTHLY;BYMONTH=1,12;BYMONTHDAY=1,-1:
-  de: Monatlich im Januar & Dezember am ersten & letzten Tag
+  de: Monatlich im Januar und Dezember am ersten und letzten Tag
   en: Monthly in January & December on the 1st & last day
   es: Todos los meses en enero y diciembre el día 1 y el último día
   fr: Tous les mois en janvier et en décembre le 1er et le dernier jour
   nl: Maandelijks in januari en december op de eerste en laatste dag
 # 0111
 RRULE:FREQ=MONTHLY;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Monatlich im Januar & Dezember jeden Montag & letzten Donnerstag sowie am ersten oder letzten Tag des Monats
+  de: Monatlich im Januar und Dezember montags und am letzten Donnerstag nur am ersten oder letzten Tag des Monats
   en: Monthly in January & December on every Monday & the last Thursday that are also the 1st or last day of the month
   es: Todos los meses en enero y diciembre los lunes y el último jueves que caen el día 1 o el último día del mes
   fr: Tous les mois en janvier et en décembre le lundi et le dernier jeudi qui tombent le 1er ou le dernier jour du mois
@@ -316,49 +316,49 @@ RRULE:FREQ=MONTHLY;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
 # 1000: invalid
 # 1001
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYDAY=MO,-1TH:
-  de: Monatlich am ersten & vorletzten jeden Montag & letzten Donnerstag
+  de: Monatlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag
   en: Monthly on the 1st & 2nd-to-last instance of every Monday & the last Thursday
   es: Todos los meses la primera y la penúltima ocurrencia de los lunes y el último jueves
   fr: Tous les mois la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi
   nl: Maandelijks op de eerste en voorlaatste van elke maandag en de laatste donderdag
 # 1010
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTHDAY=1,-1:
-  de: Monatlich am ersten & vorletzten  ersten & letzten Tag
+  de: Monatlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag
   en: Monthly on the 1st & 2nd-to-last instance of the 1st & last day
   es: Todos los meses la primera y la penúltima ocurrencia del día 1 y el último día
   fr: Tous les mois la 1re et l'avant-dernière occurrence du 1er et du dernier jour
   nl: Maandelijks op de eerste en voorlaatste van de eerste en laatste dag
 # 1011
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Monatlich am ersten & vorletzten jeden Montag & letzten Donnerstag sowie am ersten oder letzten Tag des Monats
+  de: Monatlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag nur am ersten oder letzten Tag des Monats
   en: Monthly on the 1st & 2nd-to-last instance of every Monday & the last Thursday that are also the 1st or last day of the month
   es: Todos los meses la primera y la penúltima ocurrencia de los lunes y el último jueves que caen el día 1 o el último día del mes
   fr: Tous les mois la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi qui tombent le 1er ou le dernier jour du mois
   nl: Maandelijks op de eerste en voorlaatste van elke maandag en de laatste donderdag die tevens de eerste of laatste dag van de maand zijn
 # 1100
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTH=1,12:
-  de: Monatlich im Januar & Dezember am ersten & vorletzten
+  de: Monatlich im Januar und Dezember jeweils das erste und vorletzte Vorkommen
   en: Monthly in January & December on the 1st & 2nd-to-last instance
   es: Todos los meses en enero y diciembre la primera y la penúltima ocurrencia
   fr: Tous les mois en janvier et en décembre la 1re et l'avant-dernière occurrence
   nl: Maandelijks in januari en december op de eerste en voorlaatste
 # 1101
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTH=1,12;BYDAY=MO,-1TH:
-  de: Monatlich im Januar & Dezember am ersten & vorletzten jeden Montag & letzten Donnerstag
+  de: Monatlich im Januar und Dezember jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag
   en: Monthly in January & December on the 1st & 2nd-to-last instance of every Monday & the last Thursday
   es: Todos los meses en enero y diciembre la primera y la penúltima ocurrencia de los lunes y el último jueves
   fr: Tous les mois en janvier et en décembre la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi
   nl: Maandelijks in januari en december op de eerste en voorlaatste van elke maandag en de laatste donderdag
 # 1110
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1:
-  de: Monatlich im Januar & Dezember am ersten & vorletzten  ersten & letzten Tag
+  de: Monatlich im Januar und Dezember jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag
   en: Monthly in January & December on the 1st & 2nd-to-last instance of the 1st & last day
   es: Todos los meses en enero y diciembre la primera y la penúltima ocurrencia del día 1 y el último día
   fr: Tous les mois en janvier et en décembre la 1re et l'avant-dernière occurrence du 1er et du dernier jour
   nl: Maandelijks in januari en december op de eerste en voorlaatste van de eerste en laatste dag
 # 1111
 RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Monatlich im Januar & Dezember am ersten & vorletzten jeden Montag & letzten Donnerstag sowie am ersten oder letzten Tag des Monats
+  de: Monatlich im Januar und Dezember jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag nur am ersten oder letzten Tag des Monats
   en: Monthly in January & December on the 1st & 2nd-to-last instance of every Monday & the last Thursday that are also the 1st or last day of the month
   es: Todos los meses en enero y diciembre la primera y la penúltima ocurrencia de los lunes y el último jueves que caen el día 1 o el último día del mes
   fr: Tous les mois en janvier et en décembre la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi qui tombent le 1er ou le dernier jour du mois
@@ -367,19 +367,19 @@ RRULE:FREQ=MONTHLY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
 # Yearly
 
 RRULE:FREQ=YEARLY;BYDAY=MO:
-  de: Jährlich jeden Montag
+  de: Jährlich montags
   en: Annually on every Monday
   es: Todos los años los lunes
   fr: Tous les ans le lundi
   nl: Jaarlijks op elke maandag
 RRULE:FREQ=YEARLY;INTERVAL=2;BYDAY=MO:
-  de: Jedes zweite Jahr jeden Montag
+  de: Jedes zweite Jahr montags
   en: Every other year on every Monday
   es: Cada dos años los lunes
   fr: Tous les deux ans le lundi
   nl: Om de twee jaar op elke maandag
 RRULE:FREQ=YEARLY;INTERVAL=4;BYDAY=MO:
-  de: Alle 4 Jahre jeden Montag
+  de: Alle 4 Jahre montags
   en: Every 4 years on every Monday
   es: Cada 4 años los lunes
   fr: Tous les 4 ans le lundi
@@ -398,126 +398,126 @@ RRULE:FREQ=YEARLY:
   nl: Jaarlijks
 # 000001
 RRULE:FREQ=YEARLY;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Jahres
+  de: Jährlich montags und am letzten Donnerstag des Jahres
   en: Annually on every Monday & the last Thursday of the year
   es: Todos los años los lunes y el último jueves del año
   fr: Tous les ans le lundi et le dernier jeudi de l'année
   nl: Jaarlijks op elke maandag en de laatste donderdag van het jaar
 # 000010
 RRULE:FREQ=YEARLY;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats
+  de: Jährlich am ersten und letzten Tag des Monats
   en: Annually on the 1st & last day of the month
   es: Todos los años el día 1 y el último día del mes
   fr: Tous les ans le 1er et le dernier jour du mois
   nl: Jaarlijks op de eerste en laatste dag van de maand
 # 000011
 RRULE:FREQ=YEARLY;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats
+  de: Jährlich montags und am letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats
   en: Annually on every Monday & the last Thursday of the year that are also the 1st or last day of the month
   es: Todos los años los lunes y el último jueves del año que caen el día 1 o el último día del mes
   fr: Tous les ans le lundi et le dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois
   nl: Jaarlijks op elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn
 # 000100
 RRULE:FREQ=YEARLY;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Jahres
+  de: Jährlich am ersten und letzten Tag des Jahres
   en: Annually on the 1st & last day of the year
   es: Todos los años el primer y el último día del año
   fr: Tous les ans le 1er et le dernier jour de l'année
   nl: Jaarlijks op de eerste en laatste dag van het jaar
 # 000101
 RRULE:FREQ=YEARLY;BYYEARDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Jahres
+  de: Jährlich montags und am letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Jahres
   en: Annually on every Monday & the last Thursday of the year that are also the 1st or last day of the year
   es: Todos los años los lunes y el último jueves del año que caen el primer o el último día del año
   fr: Tous les ans le lundi et le dernier jeudi de l'année qui tombent le 1er ou le dernier jour de l'année
   nl: Jaarlijks op elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van het jaar zijn
 # 000110
 RRULE:FREQ=YEARLY;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres
+  de: Jährlich am ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres
   en: Annually on the 1st & last day of the month that are also the 1st or last day of the year
   es: Todos los años el día 1 y el último día del mes que caen el primer o el último día del año
   fr: Tous les ans le 1er et le dernier jour du mois qui tombent le 1er ou le dernier jour de l'année
   nl: Jaarlijks op de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn
 # 000111
 RRULE:FREQ=YEARLY;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats und sowie am ersten oder letzten Tag des Jahres
+  de: Jährlich montags und am letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats und nur am ersten oder letzten Tag des Jahres
   en: Annually on every Monday & the last Thursday of the year that are also the 1st or last day of the month and that are also the 1st or last day of the year
   es: Todos los años los lunes y el último jueves del año que caen el día 1 o el último día del mes y que caen el primer o el último día del año
   fr: Tous les ans le lundi et le dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois et qui tombent le 1er ou le dernier jour de l'année
   nl: Jaarlijks op elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn en die tevens de eerste of laatste dag van het jaar zijn
 # 001000
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1:
-  de: Jährlich in der ersten & letzten Woche des Jahres
+  de: Jährlich in der ersten und letzten Woche des Jahres
   en: Annually in the 1st & last week of the year
   es: Todos los años en la primera y la última semana del año
   fr: Tous les ans pendant la 1re et la dernière semaine de l'année
   nl: Jaarlijks in de eerste en laatste week
 # 001001
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYDAY=MO,WE:
-  de: Jährlich jeden Montag & Mittwoch in der ersten & letzten Woche des Jahres
+  de: Jährlich montags und mittwochs in der ersten und letzten Woche des Jahres
   en: Annually on every Monday & Wednesday in the 1st & last week of the year
   es: Todos los años los lunes y los miércoles en la primera y la última semana del año
   fr: Tous les ans le lundi et le mercredi pendant la 1re et la dernière semaine de l'année
   nl: Jaarlijks op elke maandag en woensdag in de eerste en laatste week
 # 001010
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich am ersten und letzten Tag des Monats nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & last day of the month that are also in the 1st or last week of the year
   es: Todos los años el día 1 y el último día del mes que caen en la primera o la última semana del año
   fr: Tous les ans le 1er et le dernier jour du mois qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en laatste dag van de maand die tevens in de eerste of laatste week vallen
 # 001011
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: Jährlich jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats und sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich montags und mittwochs nur am ersten oder letzten Tag des Monats und nur in der ersten oder letzten Woche des Jahres
   en: Annually on every Monday & Wednesday that are also the 1st or last day of the month and that are also in the 1st or last week of the year
   es: Todos los años los lunes y los miércoles que caen el día 1 o el último día del mes y que caen en la primera o la última semana del año
   fr: Tous les ans le lundi et le mercredi qui tombent le 1er ou le dernier jour du mois et qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op elke maandag en woensdag die tevens de eerste of laatste dag van de maand zijn en die tevens in de eerste of laatste week vallen
 # 001100
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Jahres sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich am ersten und letzten Tag des Jahres nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & last day of the year that are also in the 1st or last week of the year
   es: Todos los años el primer y el último día del año que caen en la primera o la última semana del año
   fr: Tous les ans le 1er et le dernier jour de l'année qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en laatste dag van het jaar die tevens in de eerste of laatste week vallen
 # 001101
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYDAY=MO,WE:
-  de: Jährlich jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Jahres und sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich montags und mittwochs nur am ersten oder letzten Tag des Jahres und nur in der ersten oder letzten Woche des Jahres
   en: Annually on every Monday & Wednesday that are also the 1st or last day of the year and that are also in the 1st or last week of the year
   es: Todos los años los lunes y los miércoles que caen el primer o el último día del año y que caen en la primera o la última semana del año
   fr: Tous les ans le lundi et le mercredi qui tombent le 1er ou le dernier jour de l'année et qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op elke maandag en woensdag die tevens de eerste of laatste dag van het jaar zijn en die tevens in de eerste of laatste week vallen
 # 001110
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres und sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich am ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres und nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & last day of the month that are also the 1st or last day of the year and that are also in the 1st or last week of the year
   es: Todos los años el día 1 y el último día del mes que caen el primer o el último día del año y que caen en la primera o la última semana del año
   fr: Tous les ans le 1er et le dernier jour du mois qui tombent le 1er ou le dernier jour de l'année et qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn en die tevens in de eerste of laatste week vallen
 # 001111
 RRULE:FREQ=YEARLY;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats, sowie am ersten oder letzten Tag des Jahres, und sowie in der ersten oder letzten Woche des Jahres"
+  de: "Jährlich montags und mittwochs nur am ersten oder letzten Tag des Monats, nur am ersten oder letzten Tag des Jahres und nur in der ersten oder letzten Woche des Jahres"
   en: "Annually on every Monday & Wednesday that are also the 1st or last day of the month, that are also the 1st or last day of the year, and that are also in the 1st or last week of the year"
   es: "Todos los años los lunes y los miércoles que caen el día 1 o el último día del mes, que caen el primer o el último día del año y que caen en la primera o la última semana del año"
   fr: "Tous les ans le lundi et le mercredi qui tombent le 1er ou le dernier jour du mois, qui tombent le 1er ou le dernier jour de l'année et qui tombent pendant la 1re ou la dernière semaine de l'année"
   nl: "Jaarlijks op elke maandag en woensdag die tevens de eerste of laatste dag van de maand zijn, die tevens de eerste of laatste dag van het jaar zijn, en die tevens in de eerste of laatste week vallen"
 # 010000
 RRULE:FREQ=YEARLY;BYMONTH=1,12:
-  de: Jährlich im Januar & Dezember
+  de: Jährlich im Januar und Dezember
   en: Annually in January & December
   es: Todos los años en enero y diciembre
   fr: Tous les ans en janvier et en décembre
   nl: Jaarlijks in januari en december
 # 010001
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Monats im Januar & Dezember
+  de: Jährlich montags und am letzten Donnerstag des Monats im Januar und Dezember
   en: Annually on every Monday & the last Thursday of the month in January & December
   es: Todos los años los lunes y el último jueves del mes en enero y diciembre
   fr: Tous les ans le lundi et le dernier jeudi du mois en janvier et en décembre
   nl: Jaarlijks op elke maandag en de laatste donderdag van de maand in januari en december
 # 010010
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats im Januar & Dezember
+  de: Jährlich am ersten und letzten Tag des Monats im Januar und Dezember
   en: Annually on the 1st & last day of the month in January & December
   es: Todos los años el día 1 y el último día del mes en enero y diciembre
   fr: Tous les ans le 1er et le dernier jour du mois en janvier et en décembre
@@ -525,91 +525,91 @@ RRULE:FREQ=YEARLY;BYMONTH=1,12;BYMONTHDAY=1,-1:
 # 010011
 # TODO(JonasWanke): the 1st or last day in January or December
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats und sowie im Januar oder Dezember
+  de: Jährlich montags und am letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats und nur im Januar oder Dezember
   en: Annually on every Monday & the last Thursday of the year that are also the 1st or last day of the month and that are also in January or December
   es: Todos los años los lunes y el último jueves del año que caen el día 1 o el último día del mes y que caen en enero o diciembre
   fr: Tous les ans le lundi et le dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois et qui tombent en janvier ou en décembre
   nl: Jaarlijks op elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn en die tevens in januari of december vallen
 # 010100
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Jahres sowie im Januar oder Dezember
+  de: Jährlich am ersten und letzten Tag des Jahres nur im Januar oder Dezember
   en: Annually on the 1st & last day of the year that are also in January or December
   es: Todos los años el primer y el último día del año que caen en enero o diciembre
   fr: Tous les ans le 1er et le dernier jour de l'année qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en laatste dag van het jaar die tevens in januari of december vallen
 # 010101
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYYEARDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Jahres und sowie im Januar oder Dezember
+  de: Jährlich montags und am letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Jahres und nur im Januar oder Dezember
   en: Annually on every Monday & the last Thursday of the year that are also the 1st or last day of the year and that are also in January or December
   es: Todos los años los lunes y el último jueves del año que caen el primer o el último día del año y que caen en enero o diciembre
   fr: Tous les ans le lundi et le dernier jeudi de l'année qui tombent le 1er ou le dernier jour de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van het jaar zijn en die tevens in januari of december vallen
 # 010110
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres und sowie im Januar oder Dezember
+  de: Jährlich am ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & last day of the month that are also the 1st or last day of the year and that are also in January or December
   es: Todos los años el día 1 y el último día del mes que caen el primer o el último día del año y que caen en enero o diciembre
   fr: Tous les ans le 1er et le dernier jour du mois qui tombent le 1er ou le dernier jour de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn en die tevens in januari of december vallen
 # 010111
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: "Jährlich jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats, sowie am ersten oder letzten Tag des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich montags und am letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats, nur am ersten oder letzten Tag des Jahres und nur im Januar oder Dezember"
   en: "Annually on every Monday & the last Thursday of the year that are also the 1st or last day of the month, that are also the 1st or last day of the year, and that are also in January or December"
   es: "Todos los años los lunes y el último jueves del año que caen el día 1 o el último día del mes, que caen el primer o el último día del año y que caen en enero o diciembre"
   fr: "Tous les ans le lundi et le dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois, qui tombent le 1er ou le dernier jour de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn, die tevens de eerste of laatste dag van het jaar zijn, en die tevens in januari of december vallen"
 # 011000
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1:
-  de: Jährlich in der ersten & letzten Woche des Jahres sowie im Januar oder Dezember
+  de: Jährlich in der ersten und letzten Woche des Jahres nur im Januar oder Dezember
   en: Annually in the 1st & last week of the year that are also in January or December
   es: Todos los años en la primera y la última semana del año que caen en enero o diciembre
   fr: Tous les ans pendant la 1re et la dernière semaine de l'année qui tombent en janvier ou en décembre
   nl: Jaarlijks in de eerste en laatste week die tevens in januari of december vallen
 # 011001
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYDAY=MO,WE:
-  de: Jährlich jeden Montag & Mittwoch in der ersten & letzten Woche des Jahres sowie im Januar oder Dezember
+  de: Jährlich montags und mittwochs in der ersten und letzten Woche des Jahres nur im Januar oder Dezember
   en: Annually on every Monday & Wednesday in the 1st & last week of the year that are also in January or December
   es: Todos los años los lunes y los miércoles en la primera y la última semana del año que caen en enero o diciembre
   fr: Tous les ans le lundi et le mercredi pendant la 1re et la dernière semaine de l'année qui tombent en janvier ou en décembre
   nl: Jaarlijks op elke maandag en woensdag in de eerste en laatste week die tevens in januari of december vallen
 # 011010
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Monats sowie in der ersten oder letzten Woche des Jahres und sowie im Januar oder Dezember
+  de: Jährlich am ersten und letzten Tag des Monats nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & last day of the month that are also in the 1st or last week of the year and that are also in January or December
   es: Todos los años el día 1 y el último día del mes que caen en la primera o la última semana del año y que caen en enero o diciembre
   fr: Tous les ans le 1er et le dernier jour du mois qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en laatste dag van de maand die tevens in de eerste of laatste week vallen en die tevens in januari of december vallen
 # 011011
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich montags und mittwochs nur am ersten oder letzten Tag des Monats, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on every Monday & Wednesday that are also the 1st or last day of the month, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años los lunes y los miércoles que caen el día 1 o el último día del mes, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans le lundi et le mercredi qui tombent le 1er ou le dernier jour du mois, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op elke maandag en woensdag die tevens de eerste of laatste dag van de maand zijn, die tevens in de eerste of laatste week vallen, en die tevens in januari of december vallen"
 # 011100
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & letzten Tag des Jahres sowie in der ersten oder letzten Woche des Jahres und sowie im Januar oder Dezember
+  de: Jährlich am ersten und letzten Tag des Jahres nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & last day of the year that are also in the 1st or last week of the year and that are also in January or December
   es: Todos los años el primer y el último día del año que caen en la primera o la última semana del año y que caen en enero o diciembre
   fr: Tous les ans le 1er et le dernier jour de l'année qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en laatste dag van het jaar die tevens in de eerste of laatste week vallen en die tevens in januari of december vallen
 # 011101
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Jahres, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich montags und mittwochs nur am ersten oder letzten Tag des Jahres, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on every Monday & Wednesday that are also the 1st or last day of the year, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años los lunes y los miércoles que caen el primer o el último día del año, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans le lundi et le mercredi qui tombent le 1er ou le dernier jour de l'année, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op elke maandag en woensdag die tevens de eerste of laatste dag van het jaar zijn, die tevens in de eerste of laatste week vallen, en die tevens in januari of december vallen"
 # 011110
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: "Jährlich am ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich am ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on the 1st & last day of the month that are also the 1st or last day of the year, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años el día 1 y el último día del mes que caen el primer o el último día del año, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans le 1er et le dernier jour du mois qui tombent le 1er ou le dernier jour de l'année, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn, die tevens in de eerste of laatste week vallen, en die tevens in januari of december vallen"
 # 011111
 RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats, sowie am ersten oder letzten Tag des Jahres, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich montags und mittwochs nur am ersten oder letzten Tag des Monats, nur am ersten oder letzten Tag des Jahres, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on every Monday & Wednesday that are also the 1st or last day of the month, that are also the 1st or last day of the year, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años los lunes y los miércoles que caen el día 1 o el último día del mes, que caen el primer o el último día del año, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans le lundi et le mercredi qui tombent le 1er ou le dernier jour du mois, qui tombent le 1er ou le dernier jour de l'année, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
@@ -617,217 +617,217 @@ RRULE:FREQ=YEARLY;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDA
 # 100000: invalid
 # 100001
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar
 # 100010
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand
 # 100011
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year that are also the 1st or last day of the month
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año que caen el día 1 o el último día del mes
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn
 # 100100
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Jahres
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the year
   es: Todos los años la primera y la penúltima ocurrencia del primer y el último día del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour de l'année
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van het jaar
 # 100101
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYYEARDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Jahres
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year that are also the 1st or last day of the year
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año que caen el primer o el último día del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année qui tombent le 1er ou le dernier jour de l'année
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van het jaar zijn
 # 100110
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month that are also the 1st or last day of the year
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes que caen el primer o el último día del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois qui tombent le 1er ou le dernier jour de l'année
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn
 # 100111
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats und sowie am ersten oder letzten Tag des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats und nur am ersten oder letzten Tag des Jahres
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year that are also the 1st or last day of the month and that are also the 1st or last day of the year
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año que caen el día 1 o el último día del mes y que caen el primer o el último día del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois et qui tombent le 1er ou le dernier jour de l'année
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn en die tevens de eerste of laatste dag van het jaar zijn
 # 101000
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1:
-  de: Jährlich am ersten & vorletzten  der ersten & letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen der ersten und letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last week of the year
   es: Todos los años la primera y la penúltima ocurrencia de la primera y la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence de la 1re et de la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste week
 # 101001
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYDAY=MO,WE:
-  de: Jährlich am ersten & vorletzten jeden Montag & Mittwoch in der ersten & letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch in der ersten und letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday in the 1st & last week of the year
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles en la primera y la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi pendant la 1re et la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag in de eerste en laatste week
 # 101010
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month that are also in the 1st or last week of the year
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes que caen en la primera o la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand die tevens in de eerste of laatste week vallen
 # 101011
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: Jährlich am ersten & vorletzten jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats und sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch nur am ersten oder letzten Tag des Monats und nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday that are also the 1st or last day of the month and that are also in the 1st or last week of the year
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles que caen el día 1 o el último día del mes y que caen en la primera o la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi qui tombent le 1er ou le dernier jour du mois et qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag die tevens de eerste of laatste dag van de maand zijn en die tevens in de eerste of laatste week vallen
 # 101100
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Jahres sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Jahres nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the year that are also in the 1st or last week of the year
   es: Todos los años la primera y la penúltima ocurrencia del primer y el último día del año que caen en la primera o la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour de l'année qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van het jaar die tevens in de eerste of laatste week vallen
 # 101101
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYDAY=MO,WE:
-  de: Jährlich am ersten & vorletzten jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Jahres und sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch nur am ersten oder letzten Tag des Jahres und nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday that are also the 1st or last day of the year and that are also in the 1st or last week of the year
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles que caen el primer o el último día del año y que caen en la primera o la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi qui tombent le 1er ou le dernier jour de l'année et qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag die tevens de eerste of laatste dag van het jaar zijn en die tevens in de eerste of laatste week vallen
 # 101110
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres und sowie in der ersten oder letzten Woche des Jahres
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres und nur in der ersten oder letzten Woche des Jahres
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month that are also the 1st or last day of the year and that are also in the 1st or last week of the year
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes que caen el primer o el último día del año y que caen en la primera o la última semana del año
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois qui tombent le 1er ou le dernier jour de l'année et qui tombent pendant la 1re ou la dernière semaine de l'année
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn en die tevens in de eerste of laatste week vallen
 # 101111
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich am ersten & vorletzten jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats, sowie am ersten oder letzten Tag des Jahres, und sowie in der ersten oder letzten Woche des Jahres"
+  de: "Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch nur am ersten oder letzten Tag des Monats, nur am ersten oder letzten Tag des Jahres und nur in der ersten oder letzten Woche des Jahres"
   en: "Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday that are also the 1st or last day of the month, that are also the 1st or last day of the year, and that are also in the 1st or last week of the year"
   es: "Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles que caen el día 1 o el último día del mes, que caen el primer o el último día del año y que caen en la primera o la última semana del año"
   fr: "Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi qui tombent le 1er ou le dernier jour du mois, qui tombent le 1er ou le dernier jour de l'année et qui tombent pendant la 1re ou la dernière semaine de l'année"
   nl: "Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag die tevens de eerste of laatste dag van de maand zijn, die tevens de eerste of laatste dag van het jaar zijn, en die tevens in de eerste of laatste week vallen"
 # 110000
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12:
-  de: Jährlich am ersten & vorletzten  Januar & Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen im Januar und Dezember
   en: Annually on the 1st & 2nd-to-last instance of January & December
   es: Todos los años la primera y la penúltima ocurrencia de enero y diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence de janvier et de décembre
   nl: Jaarlijks op de eerste en voorlaatste van januari en december
 # 110001
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Monats im Januar & Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Monats im Januar und Dezember
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the month in January & December
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del mes en enero y diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi du mois en janvier et en décembre
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van de maand in januari en december
 # 110010
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats im Januar & Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats im Januar und Dezember
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month in January & December
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes en enero y diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois en janvier et en décembre
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand in januari en december
 # 110011
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats und sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats und nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year that are also the 1st or last day of the month and that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año que caen el día 1 o el último día del mes y que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn en die tevens in januari of december vallen
 # 110100
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Jahres sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Jahres nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the year that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia del primer y el último día del año que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour de l'année qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van het jaar die tevens in januari of december vallen
 # 110101
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYYEARDAY=1,-1;BYDAY=MO,-1TH:
-  de: Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Jahres und sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year that are also the 1st or last day of the year and that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año que caen el primer o el último día del año y que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année qui tombent le 1er ou le dernier jour de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van het jaar zijn en die tevens in januari of december vallen
 # 110110
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres und sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month that are also the 1st or last day of the year and that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes que caen el primer o el último día del año y que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois qui tombent le 1er ou le dernier jour de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn en die tevens in januari of december vallen
 # 110111
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,-1TH:
-  de: "Jährlich am ersten & vorletzten jeden Montag & letzten Donnerstag des Jahres sowie am ersten oder letzten Tag des Monats, sowie am ersten oder letzten Tag des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich jeweils das erste und vorletzte Vorkommen von Montag und dem letzten Donnerstag des Jahres nur am ersten oder letzten Tag des Monats, nur am ersten oder letzten Tag des Jahres und nur im Januar oder Dezember"
   en: "Annually on the 1st & 2nd-to-last instance of every Monday & the last Thursday of the year that are also the 1st or last day of the month, that are also the 1st or last day of the year, and that are also in January or December"
   es: "Todos los años la primera y la penúltima ocurrencia de los lunes y el último jueves del año que caen el día 1 o el último día del mes, que caen el primer o el último día del año y que caen en enero o diciembre"
   fr: "Tous les ans la 1re et l'avant-dernière occurrence du lundi et du dernier jeudi de l'année qui tombent le 1er ou le dernier jour du mois, qui tombent le 1er ou le dernier jour de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op de eerste en voorlaatste van elke maandag en de laatste donderdag van het jaar die tevens de eerste of laatste dag van de maand zijn, die tevens de eerste of laatste dag van het jaar zijn, en die tevens in januari of december vallen"
 # 111000
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1:
-  de: Jährlich am ersten & vorletzten  der ersten & letzten Woche des Jahres sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen der ersten und letzten Woche des Jahres nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last week of the year that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia de la primera y la última semana del año que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence de la 1re et de la dernière semaine de l'année qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste week die tevens in januari of december vallen
 # 111001
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYDAY=MO,WE:
-  de: Jährlich am ersten & vorletzten jeden Montag & Mittwoch in der ersten & letzten Woche des Jahres sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch in der ersten und letzten Woche des Jahres nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday in the 1st & last week of the year that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles en la primera y la última semana del año que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi pendant la 1re et la dernière semaine de l'année qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag in de eerste en laatste week die tevens in januari of december vallen
 # 111010
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYMONTHDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats sowie in der ersten oder letzten Woche des Jahres und sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month that are also in the 1st or last week of the year and that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes que caen en la primera o la última semana del año y que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand die tevens in de eerste of laatste week vallen en die tevens in januari of december vallen
 # 111011
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich am ersten & vorletzten jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch nur am ersten oder letzten Tag des Monats, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday that are also the 1st or last day of the month, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles que caen el día 1 o el último día del mes, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi qui tombent le 1er ou le dernier jour du mois, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag die tevens de eerste of laatste dag van de maand zijn, die tevens in de eerste of laatste week vallen, en die tevens in januari of december vallen"
 # 111100
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1:
-  de: Jährlich am ersten & vorletzten  ersten & letzten Tag des Jahres sowie in der ersten oder letzten Woche des Jahres und sowie im Januar oder Dezember
+  de: Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Jahres nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember
   en: Annually on the 1st & 2nd-to-last instance of the 1st & last day of the year that are also in the 1st or last week of the year and that are also in January or December
   es: Todos los años la primera y la penúltima ocurrencia del primer y el último día del año que caen en la primera o la última semana del año y que caen en enero o diciembre
   fr: Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour de l'année qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre
   nl: Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van het jaar die tevens in de eerste of laatste week vallen en die tevens in januari of december vallen
 # 111101
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich am ersten & vorletzten jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Jahres, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch nur am ersten oder letzten Tag des Jahres, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday that are also the 1st or last day of the year, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles que caen el primer o el último día del año, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi qui tombent le 1er ou le dernier jour de l'année, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op de eerste en voorlaatste van elke maandag en woensdag die tevens de eerste of laatste dag van het jaar zijn, die tevens in de eerste of laatste week vallen, en die tevens in januari of december vallen"
 # 111110
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1:
-  de: "Jährlich am ersten & vorletzten  ersten & letzten Tag des Monats sowie am ersten oder letzten Tag des Jahres, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich jeweils das erste und vorletzte Vorkommen vom ersten und letzten Tag des Monats nur am ersten oder letzten Tag des Jahres, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on the 1st & 2nd-to-last instance of the 1st & last day of the month that are also the 1st or last day of the year, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años la primera y la penúltima ocurrencia del día 1 y el último día del mes que caen el primer o el último día del año, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans la 1re et l'avant-dernière occurrence du 1er et du dernier jour du mois qui tombent le 1er ou le dernier jour de l'année, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
   nl: "Jaarlijks op de eerste en voorlaatste van de eerste en laatste dag van de maand die tevens de eerste of laatste dag van het jaar zijn, die tevens in de eerste of laatste week vallen, en die tevens in januari of december vallen"
 # 111111
 RRULE:FREQ=YEARLY;BYSETPOS=1,-2;BYMONTH=1,12;BYWEEKNO=1,-1;BYYEARDAY=1,-1;BYMONTHDAY=1,-1;BYDAY=MO,WE:
-  de: "Jährlich am ersten & vorletzten jeden Montag & Mittwoch sowie am ersten oder letzten Tag des Monats, sowie am ersten oder letzten Tag des Jahres, sowie in der ersten oder letzten Woche des Jahres, und sowie im Januar oder Dezember"
+  de: "Jährlich jeweils das erste und vorletzte Vorkommen von Montag und Mittwoch nur am ersten oder letzten Tag des Monats, nur am ersten oder letzten Tag des Jahres, nur in der ersten oder letzten Woche des Jahres und nur im Januar oder Dezember"
   en: "Annually on the 1st & 2nd-to-last instance of every Monday & Wednesday that are also the 1st or last day of the month, that are also the 1st or last day of the year, that are also in the 1st or last week of the year, and that are also in January or December"
   es: "Todos los años la primera y la penúltima ocurrencia de los lunes y los miércoles que caen el día 1 o el último día del mes, que caen el primer o el último día del año, que caen en la primera o la última semana del año y que caen en enero o diciembre"
   fr: "Tous les ans la 1re et l'avant-dernière occurrence du lundi et du mercredi qui tombent le 1er ou le dernier jour du mois, qui tombent le 1er ou le dernier jour de l'année, qui tombent pendant la 1re ou la dernière semaine de l'année et qui tombent en janvier ou en décembre"
@@ -848,31 +848,31 @@ RRULE:INTERVAL=4;FREQ=HOURLY:
   fr: Toutes les 4 heures
   nl: Om de 4 uren
 RRULE:FREQ=WEEKLY;COUNT=20:
-  de: "Wöchentlich, 20 Mal"
+  de: "Wöchentlich, 20-mal"
   en: "Weekly, 20 times"
   es: "Todas las semanas, 20 veces"
   fr: "Toutes les semaines, 20 fois"
   nl: "Wekelijks, 20 keer"
 RRULE:FREQ=WEEKLY;UNTIL=20070101T080000Z:
-  de: "Wöchentlich, bis Montag, 1. Januar 2007 08:00:00"
+  de: "Wöchentlich, bis Montag, 1. Januar 2007 um 8:00 Uhr"
   en: "Weekly, until Monday, January 1, 2007 8:00:00 AM"
   es: "Todas las semanas, hasta el lunes 1 de enero de 2007 a las 8:00"
   fr: "Toutes les semaines, jusqu'au lundi 1er janvier 2007 à 8 h 00"
   nl: "Wekelijks, tot maandag 1 januari 2007 om 8:00 uur"
 RRULE:FREQ=WEEKLY;BYDAY=TU:
-  de: Wöchentlich Dienstags
+  de: Wöchentlich dienstags
   en: Weekly on Tuesday
   es: Todas las semanas los martes
   fr: Toutes les semaines le mardi
   nl: Wekelijks op dinsdag
 RRULE:FREQ=WEEKLY;BYDAY=MO,WE:
-  de: Wöchentlich Montags & Mittwochs
+  de: Wöchentlich montags und mittwochs
   en: Weekly on Monday & Wednesday
   es: Todas las semanas los lunes y los miércoles
   fr: Toutes les semaines le lundi et le mercredi
   nl: Wekelijks op maandag en woensdag
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR:
-  de: Wöchentlich an Wochentagen
+  de: Wöchentlich montags bis freitags
   en: Weekly on weekdays
   es: Todas las semanas de lunes a viernes
   fr: Toutes les semaines du lundi au vendredi
@@ -890,19 +890,19 @@ RRULE:FREQ=MONTHLY;BYMONTHDAY=4:
   fr: Tous les mois le 4
   nl: Maandelijks op de 4de
 RRULE:FREQ=MONTHLY;BYMONTHDAY=-4:
-  de: Monatlich am 4.-letzten Tag
+  de: Monatlich am viertletzten Tag
   en: Monthly on the 4th-to-last day
   es: Todos los meses el tercero antes del último día
   fr: Tous les mois le 3e avant le dernier jour
   nl: Maandelijks op de 4-na-laatste dag
 RRULE:FREQ=MONTHLY;BYDAY=+3TU:
-  de: Monatlich am 3. Dienstag
+  de: Monatlich am dritten Dienstag
   en: Monthly on the 3rd Tuesday
   es: Todos los meses el tercer martes
   fr: Tous les mois le 3e mardi
   nl: Maandelijks op de 3de dinsdag
 RRULE:FREQ=MONTHLY;BYDAY=-3TU:
-  de: Monatlich am 3.-letzten Dienstag
+  de: Monatlich am drittletzten Dienstag
   en: Monthly on the 3rd-to-last Tuesday
   es: Todos los meses el antepenúltimo martes
   fr: Tous les mois l'antépénultième mardi
