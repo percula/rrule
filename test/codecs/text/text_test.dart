@@ -43,6 +43,7 @@ Future<void> main() async {
 Future<Map<String, RruleL10n>> createL10n() async {
   return {
     'en': await RruleL10nEn.create(),
+    'es': await RruleL10nEs.create(),
     'fr': await RruleL10nFr.create(),
     'nl': await RruleL10nNl.create(),
   };

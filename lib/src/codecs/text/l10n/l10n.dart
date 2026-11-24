@@ -7,6 +7,7 @@ import '../../../utils.dart';
 import 'en.dart';
 
 export 'en.dart';
+export 'es.dart';
 export 'fr.dart';
 export 'nl.dart';
 
